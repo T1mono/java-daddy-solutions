@@ -26,9 +26,7 @@ public class Person {
     }
 
     public String displayInfo() {
-        return "Person{" +
-                "Name:'" + "[" + name + "]" + '\'' +
-                ", Age:" + "[" + age + "]" +
-                '}';
+        return "Name:" + "[" + name + "]" +
+                ", Age:" + "[" + age + "]";
     }
 }
