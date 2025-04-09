@@ -14,16 +14,21 @@ public class BankAccount {
     }
 
     public double deposit(double amount) {
-        return balance += amount;
+        if (amount <= 0) {
+            throw new IllegalArgumentException("Сумма увеличивающая баланс должна быть положительной");
+        }
+            return balance += amount;
     }
 
     public double withdraw(double amount) {
         if (amount <= 0) {
-            System.out.println("Ошибка");
+            throw new IllegalArgumentException("Сумма снятия с баланса должна быть положительной");
         }
 
         if (balance >= amount) {
             balance -= amount;
+        } else {
+            throw new IllegalArgumentException("Недостаточно средств");
         }
 
         return balance;
