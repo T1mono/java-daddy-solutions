@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step4_OOP.topic9_String.StringComparison;
+package ru.javadaddy.roadmap.step4_OOP.topic9_String.task2_StringComparison;
 
 public class StringComparison {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step4_OOP.topic9_String.StringConcat;
+package ru.javadaddy.roadmap.step4_OOP.topic9_String.task1_StringConcat;
 
 public class StringConcat {
     public static void main(String[] args) {
