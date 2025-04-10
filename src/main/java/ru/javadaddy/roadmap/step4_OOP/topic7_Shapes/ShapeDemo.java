@@ -6,5 +6,13 @@ public class ShapeDemo {
         circle.setRadius(5.3);
         System.out.println("Площадь круга: " + circle.getArea());
         System.out.println("Периметр круга: " + circle.getPerimeter());
+
+        System.out.println("------------------------------------");
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.setHeight(23);
+        rectangle.setWidth(45);
+        System.out.println("Площадь прямоугольника: " + rectangle.getArea());
+        System.out.println("Периметр прямоугольника: " + rectangle.getPerimeter());
     }
 }
