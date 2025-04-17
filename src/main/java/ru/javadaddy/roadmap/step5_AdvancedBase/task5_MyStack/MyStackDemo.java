@@ -9,7 +9,7 @@ public class MyStackDemo {
         newStack.push("Второй");
         newStack.push("Третий");
 
-        System.out.println("Доставли элемент: " + newStack.peek());
+        System.out.println("Достали элемент: " + newStack.peek());
 
         while (!newStack.isEmpty()) {
             System.out.println("Достали элемент: " + newStack.pop());
