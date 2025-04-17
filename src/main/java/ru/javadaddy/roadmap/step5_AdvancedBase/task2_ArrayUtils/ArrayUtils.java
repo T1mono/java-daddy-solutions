@@ -14,6 +14,5 @@ public class ArrayUtils {
         T temp = array[i];
         array[i] = array[j];
         array[j] = temp;
-
     }
 }
