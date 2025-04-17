@@ -4,13 +4,15 @@ import java.util.Stack;
 
 public class MyStackDemo {
     public static void main(String[] args) {
-        MyStack<Integer> newStack =new MyStack<>();
-        newStack.push(1);
-        newStack.push(2);
-        newStack.push(23);
+        MyStack<String> newStack = new MyStack<>();
+        newStack.push("Первый");
+        newStack.push("Второй");
+        newStack.push("Третий");
 
-        System.out.println(newStack.peek());
-        System.out.println(newStack.pop());
-        System.out.println(newStack.peek());
+        System.out.println("Доставли элемент: " + newStack.peek());
+
+        while (!newStack.isEmpty()) {
+            System.out.println("Достали элемент: " + newStack.pop());
+        }
     }
 }

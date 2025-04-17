@@ -25,9 +25,7 @@ public class MyStack<T> {
             return null;
         }
 
-        T lastElement = arrayList.get(arrayList.size() - 1);
-        arrayList.remove(arrayList.size() - 1);
-        return lastElement;
+        return arrayList.remove(arrayList.size() - 1);
     }
 
     public T peek() {
@@ -35,6 +33,10 @@ public class MyStack<T> {
             return null;
         }
 
-        return arrayList.get(0);
+        return arrayList.get(arrayList.size() - 1);
+    }
+
+    public boolean isEmpty() {
+        return arrayList.isEmpty();
     }
 }
