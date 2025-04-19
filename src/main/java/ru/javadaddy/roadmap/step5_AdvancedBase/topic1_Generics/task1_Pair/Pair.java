@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task1_Pair;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task1_Pair;
 
 public class Pair<T, U> {
     private T first;

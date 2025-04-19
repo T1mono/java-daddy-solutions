@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task2_ArrayUtils;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task2_ArrayUtils;
 
 public class ArrayUtils {
 

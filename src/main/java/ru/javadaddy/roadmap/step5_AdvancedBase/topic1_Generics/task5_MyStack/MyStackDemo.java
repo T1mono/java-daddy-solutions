@@ -1,6 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task5_MyStack;
-
-import java.util.Stack;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task5_MyStack;
 
 public class MyStackDemo {
     public static void main(String[] args) {

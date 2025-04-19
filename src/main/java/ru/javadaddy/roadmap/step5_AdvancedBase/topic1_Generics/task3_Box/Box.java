@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task3_Box;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task3_Box;
 
 public class Box <T>{
     private T value;

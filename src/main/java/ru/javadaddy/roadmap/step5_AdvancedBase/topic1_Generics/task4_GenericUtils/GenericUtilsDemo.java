@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task4_GenericUtils;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task4_GenericUtils;
 
 public class GenericUtilsDemo {
     public static void main(String[] args) {

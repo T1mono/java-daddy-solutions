@@ -1,7 +1,6 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.task5_MyStack;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic1_Generics.task5_MyStack;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Реализуйте класс MyStack<T> с приватным полем для хранения элементов (например, ArrayList). Класс должен содержать методы:
