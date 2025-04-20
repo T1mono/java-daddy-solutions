@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step5_AdvancedBase.topic6_Enums;
+package ru.javadaddy.roadmap.step5_AdvancedBase.topic6_Enums.task2_Color;
 
 public enum Color {
     RED("#FF0000"),
