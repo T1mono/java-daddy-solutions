@@ -27,15 +27,4 @@ public enum Operation {
     };
 
     public abstract double apply(double x, double y);
-
-    @Override
-    public String toString() {
-        switch (this) {
-            case PLUS:  return "+";
-            case MINUS: return "-";
-            case TIMES: return "×";
-            case DIVIDE: return "÷";
-            default: throw new IllegalStateException();
-        }
-    }
 }
