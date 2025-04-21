@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.task2_LinkedList;
+package ru.javadaddy.roadmap.step6_Collection.topic1_List.task2_LinkedList;
 
 import java.util.LinkedList;
 

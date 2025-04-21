@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.task3_Stack;
+package ru.javadaddy.roadmap.step6_Collection.topic1_List.task3_Stack;
 
 import java.util.Stack;
 

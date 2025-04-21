@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.task1_ArrayList;
+package ru.javadaddy.roadmap.step6_Collection.topic1_List.task1_ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;

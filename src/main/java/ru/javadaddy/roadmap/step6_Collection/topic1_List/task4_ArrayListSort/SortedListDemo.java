@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.task4_ArrayListSort;
+package ru.javadaddy.roadmap.step6_Collection.topic1_List.task4_ArrayListSort;
 
 import java.util.ArrayList;
 import java.util.Collections;
