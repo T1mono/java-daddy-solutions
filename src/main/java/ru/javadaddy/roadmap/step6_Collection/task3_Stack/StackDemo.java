@@ -12,7 +12,7 @@ public class StackDemo {
         //Просмотр верхнего элемента
         System.out.println(stack.peek());
 
-        //Опустошение стэка
+        //Опустошение стека
         while (!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
