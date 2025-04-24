@@ -26,5 +26,6 @@ public class DequeDemo {
 
         //Список после удаления элементов с начала и конца
         System.out.println(deque);
+        //
     }
 }
