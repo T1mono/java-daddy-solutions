@@ -17,8 +17,6 @@ public class QueueDemo {
             System.out.println(queue.poll());
         }
     }
-
-    //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
 }
 
 
