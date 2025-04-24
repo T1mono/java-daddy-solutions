@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.topic3__Queue;
+package ru.javadaddy.roadmap.step6_Collection.topic3__Queue.task1_Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
