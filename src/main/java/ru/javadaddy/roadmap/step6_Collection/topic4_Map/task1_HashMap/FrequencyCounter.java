@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step6_Collection.task1_HashMap;
+package ru.javadaddy.roadmap.step6_Collection.topic4_Map.task1_HashMap;
 
 import java.util.HashMap;
 import java.util.Map;
