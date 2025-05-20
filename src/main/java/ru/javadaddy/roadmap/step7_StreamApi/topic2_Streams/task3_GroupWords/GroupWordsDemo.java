@@ -19,5 +19,12 @@ public class GroupWordsDemo {
                 .collect(Collectors.groupingBy(s -> s.charAt(0)));
 
         System.out.println(result);
+        List<String> words = Arrays.asList("apple", "ant", "banana", "berry", "cherry", "carrot");
+
+        Map<Character, List<String>> groupWords = words.stream().
+                collect(Collectors.groupingBy(
+                        ch -> ch.charAt(0)
+                ));
+        System.out.println(groupWords);
     }
 }
