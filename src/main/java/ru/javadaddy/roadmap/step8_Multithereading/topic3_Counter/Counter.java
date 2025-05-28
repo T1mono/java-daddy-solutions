@@ -1,13 +1,18 @@
 package ru.javadaddy.roadmap.step8_Multithereading.topic3_Counter;
 
-public class Counter {
-    private int counter;
+public class Counter implements Runnable {
+    private int count;
 
     public synchronized void increment() {
-        counter++;
+        count++;
+        System.out.println(count);
     }
 
-    public int getCounter() {
-        return counter;
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 3; i++) {
+            increment();
+        }
     }
 }
