@@ -14,15 +14,12 @@ public class ThreadLocalDemo {
 
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
-            extracted();
+            increment();
             System.out.println("Thread 1 = " + count.get());
         });
 
         Thread thread2 = new Thread(() -> {
-            for (int i = 0; i < 100; i++) {
-                int current = count.get();
-                count.set(current + 1);
-            }
+            increment();
             System.out.println("Thread 2 = " + count.get());
         });
 
@@ -30,7 +27,7 @@ public class ThreadLocalDemo {
         thread2.start();
     }
 
-    private static void extracted() {
+    private static void increment() {
         for (int i = 0; i < 100; i++) {
             int current = count.get();
             count.set(current + 1);
