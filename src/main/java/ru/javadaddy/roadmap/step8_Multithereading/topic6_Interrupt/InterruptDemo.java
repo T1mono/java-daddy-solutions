@@ -18,7 +18,7 @@ public class InterruptDemo {
                     throw new RuntimeException(e);
                 }
             }
-        });Шт
+        });
 
         thread.start();
 
