@@ -12,7 +12,7 @@ public class InterruptDemo {
         Thread thread = new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
-                    System.out.println("Работа братишка, ты че делаешь?");
+                    System.out.println("Работа....");
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
