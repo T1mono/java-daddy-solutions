@@ -10,8 +10,8 @@ package ru.javadaddy.roadmap.step8_Multithereading.topic8_DeadLock;
  * Продемонстрируйте ситуацию deadlock, где оба потока ждут освобождения замков.
  */
 public class DeadLockDemo {
-    static final Object lock1 = new Object();
-    static final Object lock2 = new Object();
+    public static final Object lock1 = new Object();
+    public static final Object lock2 = new Object();
 
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
