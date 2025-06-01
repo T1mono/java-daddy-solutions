@@ -1,4 +1,4 @@
-package ru.javadaddy.roadmap.step9_Test.topic1_Junit;
+package ru.javadaddy.roadmap.step9_Test.topic1_Junit.task1_DivisionCalculator;
 
 /**
  *
