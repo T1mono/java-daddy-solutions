@@ -2,7 +2,8 @@ package ru.javadaddy.roadmap.step9_Test.topic1_Junit.task1_DivisionCalculator;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DivisionCalculatorTest {
 
