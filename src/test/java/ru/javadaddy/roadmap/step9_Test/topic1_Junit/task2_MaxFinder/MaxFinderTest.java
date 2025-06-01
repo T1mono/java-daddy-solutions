@@ -3,6 +3,7 @@ package ru.javadaddy.roadmap.step9_Test.topic1_Junit.task2_MaxFinder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class MaxFinderTest {
 
@@ -21,7 +22,7 @@ class MaxFinderTest {
     @Test
     void testFindMaxNullArray() {
         int[] numbers = new int[0];
-        assertEquals(0, numbers.length);
+        assertThrows(IllegalArgumentException.class, ()-> MaxFinder.findMax(numbers));
     }
 
     @Test
