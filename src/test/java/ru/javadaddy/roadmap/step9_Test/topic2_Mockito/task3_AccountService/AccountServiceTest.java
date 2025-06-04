@@ -33,7 +33,7 @@ class AccountServiceTest {
     }
 
     @Test
-    void withdrawSuccess() {
+    void testWithdrawSuccess() {
         when(accountRepository.findAccountById(account.getAccountId())).thenReturn(account);
         boolean result = accountService.withdraw(account.getAccountId(), account.getBalance());
         assertTrue(result);
@@ -41,7 +41,7 @@ class AccountServiceTest {
     }
 
     @Test
-    void withdrawFailed() {
+    void testWithdrawFailed() {
         when(accountRepository.findAccountById(account.getAccountId())).thenReturn(account);
         boolean result = accountService.withdraw(account.getAccountId(), 260_000.12);
         assertFalse(result);
@@ -49,7 +49,7 @@ class AccountServiceTest {
     }
 
     @Test
-    void withdrawFailedAccountId() {
+    void testWithdrawFailedAccountId() {
         when(accountRepository.findAccountById("222")).thenReturn(account);
         boolean result = accountService.withdraw("222", 260_000.12);
         assertFalse(result);
